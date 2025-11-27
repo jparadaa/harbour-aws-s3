@@ -1,0 +1,17 @@
+# Proyecto AWS S3 con Harbour
+
+-ohbsigv4
+-w3
+
+# Archivos fuente
+test_s3.prg
+hbsigv4.prg
+
+# Bibliotecas estándar
+xhb.hbc
+hbcurl.hbc
+
+# UCRT para Windows moderno
+-ldflag=/NODEFAULTLIB:libucrt
+-ldflag=/NODEFAULTLIB:msvcrt
+-lucrt

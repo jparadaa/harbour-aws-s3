@@ -44,21 +44,16 @@ Genera una URL presignada para acceso temporal a objetos.
 ```bat
 SET AWS_ACCESS_KEY_ID=tu_access_key_aqui
 SET AWS_SECRET_ACCESS_KEY=tu_secret_key_aqui
+```
 
 🏃‍♂️ Programa de prueba
 
 El programa de prueba realiza los siguientes pasos:
-
 Subida desde memoria
-
 Descarga a memoria
-
 Subida desde disco
-
 Descarga a disco
-
 Eliminación de objetos
-
 Verificación de existencia
 
 🔐 Seguridad
@@ -66,9 +61,7 @@ Verificación de existencia
 Las credenciales nunca se incluyen en las URLs finales
 
 Se utiliza AWS Signature V4 (estándar actual de AWS)
-
 Las URLs presignadas expiran automáticamente (default: 1 hora)
-
 Todas las conexiones usan HTTPS
 
 📝 Nota sobre la autoría
